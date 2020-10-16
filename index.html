@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- We use the UTF-8 character encoding for this website -->
+    <meta charset="UTF-8" />
+
+    <!-- We set viewport meta since our site it going to be mobile-optimized -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Adds the website icon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- Website title -->
+    <title>Sign Up Form</title>
+  </head>
+
+  <body>
+    <!-- Use of container div is to enable flex box for its children divs -->
+    <div class="container">
+      <!-- This block will be on the left side -->
+      <div class="info-box">
+        <h1>Learn to code by watching others</h1>
+        <p>
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great but understanding how developers think is
+          invaluable.
+        </p>
+      </div>
+
+      <!-- This block contains the form and other info which will be rendered on the right side -->
+      <div class="form-box">
+        <!-- This div will render the blue box -->
+        <div class="blue-box">
+          <p><strong>Try it free 7 days </strong>then $20/mo. thereafter</p>
+        </div>
+        <!-- This div is for the rest of the form -->
+        <div class="form-box">
+          <form class="form-content">
+            <input class="firstname" type="text" placeholder="First Name" />
+            <input class="lastname" type="text" placeholder="Last Name" />
+            <input class="email" type="email" placeholder="Email Address" />
+            <input class="password" type="password" placeholder="Password" />
+            <button class="submit-button" type="submit">
+              CLAIM YOUR FREE TRIAL
+            </button>
+          </form>
+          <p>
+            By clicking the button, you are agreeing to our
+            <a href="#" target="_blank">Terms and Services</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Here is our attribution info provided as a footer -->
+    <footer>
+      <p>
+        Challenge provided by
+        <a
+          href="https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1"
+          target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a rel="author" href="https://tanishqkrishnan.com" target="_blank"
+          >Tanishq Krishnan</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
