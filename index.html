@@ -17,6 +17,9 @@
 
     <!-- Website title -->
     <title>Sign Up Form</title>
+
+    <!-- Linking the CSS stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
   </head>
 
   <body>
@@ -35,19 +38,33 @@
       <!-- This block contains the form and other info which will be rendered on the right side -->
       <div class="form-box">
         <!-- This div will render the blue box -->
-        <div class="blue-box">
+        <div class="right-box blue-box">
           <p><strong>Try it free 7 days </strong>then $20/mo. thereafter</p>
         </div>
         <!-- This div is for the rest of the form -->
-        <div class="form-box">
+        <div class="right-box form-fill-box">
           <form class="form-content">
-            <input class="firstname" type="text" placeholder="First Name" />
-            <input class="lastname" type="text" placeholder="Last Name" />
-            <input class="email" type="email" placeholder="Email Address" />
-            <input class="password" type="password" placeholder="Password" />
-            <button class="submit-button" type="submit">
-              CLAIM YOUR FREE TRIAL
-            </button>
+            <input
+              class="firstname form-font"
+              type="text"
+              placeholder="First Name"
+            />
+            <input
+              class="lastname form-font"
+              type="text"
+              placeholder="Last Name"
+            />
+            <input
+              class="email form-font"
+              type="email"
+              placeholder="Email Address"
+            />
+            <input
+              class="password form-font"
+              type="password"
+              placeholder="Password"
+            />
+            <button class="submit-button form-font" type="submit"></button>
           </form>
           <p>
             By clicking the button, you are agreeing to our

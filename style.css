@@ -1,0 +1,56 @@
+/* Importing the Poppings font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  /* This is partly a CSS reset value */
+  margin: 0;
+  padding: 0;
+
+  /* Relevant Background info */
+  background-image: url("./images/bg-intro-desktop.png");
+  background-color: hsl(0, 100%, 74%);
+
+  /* Including font family to be used for the site */
+  font-family: "Poppins", sans-serif;
+}
+
+/* The container consits of the info-box and form-box*/
+.container {
+  align-items: center;
+  display: flex;
+  flex: 1 1 0px;
+  height: 100vh;
+}
+
+/* Relevant attributes for the info-box */
+.info-box {
+  text-align: left;
+  color: white;
+}
+
+.info-box > h1 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.info-box > p {
+  font-size: 12px;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.671);
+}
+
+/* Relevant attributes for the form-fill-box */
+.form-content > input[type="text"],
+.form-content > input[type="password"] {
+  width: 458px;
+}
+
+.form-font {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Relevant attributes for the footer */
+footer {
+  display: none;
+  font-size: 12px;
+}

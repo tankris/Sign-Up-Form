@@ -4,14 +4,12 @@
 
 ## Welcome! 👋
 
-Hello! 
-
 This is my solution for the challenge on [Frontend Mentor](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1).
 
-A description (as provided) of the challenge can be found below.
+A description of the challenge can be found below.
 
 
-## The challenge
+### The challenge
 
 Your challenge is to build out this introductory component and get it looking as close to the design as possible.
 
